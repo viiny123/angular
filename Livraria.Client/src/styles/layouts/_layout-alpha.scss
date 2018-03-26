@@ -1,0 +1,378 @@
+.layout.alpha {
+
+  /*
+  Toolbar
+   */
+  .toolbar{
+    color: $layout-alpha__color__toolbar;
+    background: $layout-alpha__background__toolbar;
+    width: 100%;
+    box-shadow: none !important;
+
+    .search-bar {
+      .search-wrapper {
+        input.search-input {
+          background: #fff;
+
+          &:hover {
+            background: rgb(241, 241, 241);
+          }
+        }
+
+        &.focus {
+          input.search-input {
+            background: #fff;
+          }
+        }
+      }
+    }
+
+    .icon-button .icon {
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      font-size: 26px;
+    }
+  }
+
+  .toolbar-vipal{
+    color: $layout-alpha__color__toolbar__vipal;
+    background: $layout-alpha__background__toolbar__vipal;
+    width: 100%;
+    box-shadow: none !important;
+
+    .search-bar {
+      .search-wrapper {
+        input.search-input {
+          background: #fff;
+
+          &:hover {
+            background: rgb(241, 241, 241);
+          }
+        }
+
+        &.focus {
+          input.search-input {
+            background: #fff;
+          }
+        }
+      }
+    }
+
+    .icon-button .icon {
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      font-size: 26px;
+    }
+  }
+
+  .toolbar-target{
+    color: $layout-alpha__color__toolbar__target;
+    background: $layout-alpha__background__toolbar__target;
+    width: 100%;
+    box-shadow: none !important;
+
+    .search-bar {
+      .search-wrapper {
+        input.search-input {
+          background: #fff;
+
+          &:hover {
+            background: rgb(241, 241, 241);
+          }
+        }
+
+        &.focus {
+          input.search-input {
+            background: #fff;
+          }
+        }
+      }
+    }
+
+    .icon-button .icon {
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      font-size: 26px;
+    }
+  }
+
+  .toolbar-r2 {
+    color: $layout-alpha__color__toolbar__r2;
+    background: $layout-alpha__background__toolbar__r2;
+    width: 100%;
+    box-shadow: none !important;
+
+    .search-bar {
+      .search-wrapper {
+        input.search-input {
+          background: #fff;
+
+          &:hover {
+            background: rgb(241, 241, 241);
+          }
+        }
+
+        &.focus {
+          input.search-input {
+            background: #fff;
+          }
+        }
+      }
+    }
+
+    .icon-button .icon {
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      font-size: 26px;
+    }
+  }
+
+  /*
+  Sidenav
+   */
+
+  .sidenav {
+    background: $layout-alpha__background__sidenav;
+
+    .header {
+      background: $layout-alpha__background__sidenav-header;
+    }
+
+    .menu {
+
+      .heading {
+        color: $layout-alpha__color__sidenav-heading;
+      }
+    }
+
+  }
+
+  .sidenav-item {
+    color: $layout-alpha__color__sidenav-item;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+
+    &.active {
+      color: #FFFFFF;
+    }
+
+    .icon, .letter-icon {
+      //background: #525659;
+      color: #E6E6E6;      
+    }
+  }
+
+  .sidenav-item-container {
+    > .sidenav-item {
+      &:hover {
+        background: $layout-alpha__background-color__sidenav-item__hover;
+      }
+
+      &.active {
+        background: $layout-alpha__background-color__sidenav-item__active;      
+        
+        padding-right: 10px;
+
+        .icon, .letter-icon {
+          //background: #3f7a46;
+          color: #dcddde;
+        }
+      }
+    }
+
+    > .sub-menu { // Level 1 aka 1st Dropdown
+      background: $layout-alpha__background-color__sidenav-item__level1;
+
+      .sidenav-item-container {
+        > .sidenav-item {
+          padding-left: $padding__sidenav-item__level1;
+
+          &:hover {
+            background: $layout-alpha__background-color__sidenav-item__level1__hover;
+          }
+
+          &.active {
+            background: $layout-alpha__background-color__sidenav-item__level1__active;
+          }
+        }
+
+        > .sub-menu { // Level 2
+          background: $layout-alpha__background-color__sidenav-item__level2;
+
+          .sidenav-item-container {
+            > .sidenav-item {
+              padding-left: $padding__sidenav-item__level2;
+
+              &:hover {
+                background: $layout-alpha__background-color__sidenav-item__level2__hover;
+              }
+
+              &.active {
+                background: $layout-alpha__background-color__sidenav-item__level2__active;
+              }
+            }
+
+            > .sub-menu { // Level 3
+              background: $layout-alpha__background-color__sidenav-item__level3;
+
+              .sidenav-item-container {
+                > .sidenav-item {
+                  padding-left: $padding__sidenav-item__level3;
+
+                  &:hover {
+                    background: $layout-alpha__background-color__sidenav-item__level3__hover;
+                  }
+
+                  &.active {
+                    background: $layout-alpha__background-color__sidenav-item__level3__active;
+                  }
+                }
+
+                > .sub-menu { // Level 4
+                  background: $layout-alpha__background-color__sidenav-item__level4;
+
+                  .sidenav-item-container {
+                    > .sidenav-item {
+                      padding-left: $padding__sidenav-item__level4;
+
+                      &:hover {
+                        background: $layout-alpha__background-color__sidenav-item__level4__hover;
+                      }
+
+                      &.active {
+                        background: $layout-alpha__background-color__sidenav-item__level4__active;
+                      }
+                    }
+
+                    > .sub-menu { // Level 5
+                      background: $layout-alpha__background-color__sidenav-item__level5;
+
+                      .sidenav-item-container {
+                        > .sidenav-item {
+                          padding-left: $padding__sidenav-item__level5;
+
+                          &:hover {
+                            background: $layout-alpha__background-color__sidenav-item__level5__hover;
+                          }
+
+                          &.active {
+                            background: $layout-alpha__background-color__sidenav-item__level5__active;
+                          }
+                        }
+
+                        .sub-menu { // Infinite Levels after
+                          background: $layout-alpha__background-color__sidenav-item__level6;
+
+                          .sidenav-item-container > .sidenav-item {
+                            padding-left: $padding__sidenav-item__level6;
+
+                            &:hover {
+                              background: $layout-alpha__background-color__sidenav-item__level6__hover;
+                            }
+
+                            &.active {
+                              background: $layout-alpha__background-color__sidenav-item__level6__active;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sidenav-item-container .sub-menu {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+
+    &:before, &:after {
+      content: " ";
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      z-index: 3;
+    }
+
+    &:before {
+      background: linear-gradient(180deg, rgba(0,0,0,.3) 0, transparent);
+      top: 0;
+    }
+
+    &:after {
+      background: linear-gradient(-180deg, rgba(0,0,0,.3) 0, transparent);
+      bottom: 0;
+    }
+  }
+}
+
+.breadcrumbs-container {
+  padding: 30px;
+}
+
+
+// grid system
+
+
+.flex-container-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  position: absolute;
+  min-height: 100% !important;
+  flex-direction: row;
+  width: 100%;
+}
+
+.flex-item-1 {
+  background-color: #e0e0e0;
+  margin: 10px;
+  width: 100%;
+  border-radius: 2px; /* @TODO fazer media class das grids */
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+
+// actions groups
+
+.actions-group {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-7 {
+  flex: 7;
+}
+
+.flex-2 {
+  flex: 2;
+}

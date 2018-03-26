@@ -1,0 +1,86 @@
+.button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.metro-button {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+}
+
+
+// card veiculos
+
+
+.mat-autocomplete-panel {
+    max-height: none !important;
+}
+
+.mat-option {
+    line-height: 30px !important; 
+}
+
+.mat-option.mat-active {    
+    box-shadow: 2px 2px 10px 0px #455a64;
+}
+
+
+.card-veiculos {
+    width: 300px;
+    height: 150px;
+    cursor: pointer; 
+    margin: 5px;  
+    padding: 0px;   
+    
+    
+    .card-topo {
+        height: 30px;
+        background-color: #ccc;     
+        display: flex;
+        
+        .placa {
+            font-size: 16px;
+            text-transform: uppercase;
+            margin: 5px;
+            flex: 1;
+        }
+  
+        .frota {
+            flex: 1;
+            font-size: 12px;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+    }    
+  
+    .content-card {
+        height: 120px;
+        background-color: #ddd;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .content-item {
+        font-size: 14px;
+        color: black;
+        flex: 1;
+        padding-top: 10px;
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .bottom-item {
+        font-size: 14px;
+        color: black;   
+        padding-bottom: 5px;
+        padding-left: 5px;
+        display: flex;
+        
+        .item-title {
+            flex: 1;
+        }
+    }
+  }

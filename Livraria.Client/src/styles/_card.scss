@@ -1,0 +1,157 @@
+.card {
+  background: white;
+  border-radius: 2px;
+
+  .header {
+    min-height: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 20px;
+
+    .title {
+
+      
+
+      .extra {
+        font-size: 12px;
+        color: #888;
+      }
+    }
+
+    
+  }
+
+  .footer {
+    padding: 8px 16px;
+    border-top: 1px solid #E0E0E0;
+
+    button + button {
+      margin-left: 8px;
+    }
+  }
+
+  &.border {
+    border: 1px solid #E0E0E0;
+  }
+
+  &.space {
+
+    .header {
+      @include responsivePadding(left);
+      @include responsivePaddingHalf(right);
+    }
+
+    .content {
+      @include responsivePadding();
+    }
+
+    .footer {
+      padding: 8px;
+      @include responsivePadding(left);
+    }
+  }
+
+  &.no-padding-content {
+    .content {
+      padding: 0;
+    }
+  }
+
+  &.alternative {
+    background: white;
+    overflow: hidden;
+    @include responsivePadding();
+    @include cardBorder;
+
+    &.no-border {
+      border: none;
+    }
+
+    .header {
+      min-height: inherit;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      border-bottom: none;
+
+      .title {
+        font-size: 18px;
+      }
+
+      .sub-title {
+        font-size: 14px;
+        color: $color__text-light;
+      }
+    }
+  }
+}
+
+
+
+.card-style1 {
+    border-left: 10px solid #2196f3;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-bottom: 1px;
+    margin: 5px;
+    padding-top: 1px;
+    background-color: rgba(96, 125, 139, 0.1);
+}
+
+.card-style2 {
+  border-left: 10px solid #8bc34a;
+  border-radius: 5px;
+  padding-left: 18px;
+  padding-bottom: 1px;
+  margin: 5px;
+  padding-top: 1px;
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+.card-style3 {
+  border-left: 10px solid #ffc107;
+  border-radius: 5px;
+  padding-left: 18px;
+  padding-bottom: 1px;
+  margin: 5px;
+  padding-top: 1px;
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+.card-style4 {
+  border-left: 10px solid #ff5722;
+  border-radius: 5px;
+  padding-left: 18px;
+  padding-bottom: 1px;
+  margin: 5px;
+  padding-top: 1px;
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+.card-style5 {
+  border-left: 10px solid #c32f78;
+  border-radius: 5px;
+  padding-left: 18px;
+  padding-bottom: 1px;
+  margin: 5px;
+  padding-top: 1px;
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+
+
+
+.graph-card {
+  width: 100%;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.09), 0px 6px 10px 0px rgba(0, 0, 0, 0.13), 0px 1px 18px 0px rgba(0, 0, 0, 0.02);
+}
+
+
+

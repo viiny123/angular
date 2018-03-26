@@ -1,0 +1,16 @@
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\hbsisApi.deps.json
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\hbsisApi.runtimeconfig.json
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\hbsisApi.runtimeconfig.dev.json
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\hbsisApi.dll
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.csprojResolveAssemblyReference.cache
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.csproj.CoreCompileInputs.cache
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.AssemblyInfoInputs.cache
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.AssemblyInfo.cs
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\hbsisApi.pdb
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\LivrariaContext.Domain.dll
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.dll
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\LivrariaContext.Domain.pdb
+E:\hbsis\hbsisApi\hbsisApi\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.pdb
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.csproj.CopyComplete
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.dll
+E:\hbsis\hbsisApi\hbsisApi\obj\Debug\netcoreapp2.0\hbsisApi.pdb

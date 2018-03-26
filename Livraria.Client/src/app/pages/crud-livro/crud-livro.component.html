@@ -1,0 +1,63 @@
+<div class="content">
+  <mat-grid-list cols="1" rowHeight="50px">
+    <div class="actions-group">
+      <div class="flex-1">
+        <button mat-button routerLink="/cadastro-livro" routerLinkActive="active" class="botao-cadastro" mat-raised-button color="accent">
+          <mat-icon>add</mat-icon>
+          <span style="line-height: 1px;">Cadastrar</span>
+        </button>
+      </div>
+      <div class="flex-7">
+      </div>
+      <div class="flex-2">
+        <mat-input-container class="w-95">
+          <input matInput (keyup)="search($event.target.value)" placeholder="Pesquisar" name="pesquisar" [(ngModel)]="pesquisar">
+        </mat-input-container>
+      </div>
+    </div>
+  </mat-grid-list>
+
+  <!-- <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '0px' }"></ngx-loading> -->
+
+  <mat-grid-list cols="1" rowHeight="500px" class="grid">
+    <table id="print-section" class="table" [class.table-hover]="tableHover" [class.table-striped]="tableStriped" [class.table-condensed]="tableCondensed"
+      [class.table-bordered]="tableBordered">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Editora</th>
+          <th>ISBN</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let item of livros | async | paginate: { itemsPerPage: 10, currentPage: page, totalItems: total }">
+          <td>{{ item.tituloLivro }}</td>
+          <td>{{ item.autor }}</td>
+          <td>{{ item.nomeEditora }}</td>
+          <td>{{ item.isbn }}</td>
+          <td>
+            <button mat-icon-button [matMenuTriggerFor]="menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item routerLink="/cadastro-livro/{{item.id}}" routerLinkActive="active">
+                <mat-icon> edit </mat-icon>
+                <span> Editar </span>
+              </button>
+              <button mat-menu-item (click)="delete(item)">
+                <mat-icon> delete </mat-icon>
+                <span> Remover </span>
+              </button>
+            </mat-menu>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="float: right; display: flex">
+      <pagination-controls class="paginacao" (pageChange)="pageChange($event)" previousLabel="Anterior" nextLabel="Próxima"></pagination-controls>
+    </div>
+  </mat-grid-list>
+</div>

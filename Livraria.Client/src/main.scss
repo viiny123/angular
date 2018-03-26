@@ -1,0 +1,60 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+
+// 3rd party libraries
+@import "~material-design-icons/iconfont/material-icons.css";
+
+// Angular Material custom theme
+// The mixins below must be included once so we separated them from the variables
+@import "~@angular/material/theming";
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($app-theme);
+
+// Theme customization
+@import "theme/theme";
+
+
+//@import "~normalize.css/normalize.css";
+
+
+@import "~highlight.js/styles/androidstudio.css";
+//@import "~smooth-scrollbar/dist/smooth-scrollbar.css";
+//@import "~quill/dist/quill.snow.css";
+
+@import "styles/_var";
+@import "styles/_misc";
+@import "styles/_card";
+@import "styles/_grid";
+@import "styles/_boxed";
+@import "styles/_tabs";
+@import "styles/_badges";
+@import "styles/_helpers";
+@import "styles/_tables";
+//@import "styles/_tour";
+@import "styles/_button";
+@import "styles/_elevation";
+@import "styles/components/_sidenav";
+@import "styles/components/_quickpanel";
+@import "styles/components/_toolbar";
+@import "styles/components/_dashboard";
+@import "styles/pages/_form";
+@import "styles/pages/_profile";
+@import "styles/pages/_form-wizard";
+@import "styles/layouts/_layout-alpha";
+@import "styles/pages/_components";
+@import "styles/_colors";
+@import "styles/_checkmark";
+

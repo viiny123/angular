@@ -1,0 +1,9 @@
+E:\hbsis\hbsisApi\LivrariaContext.Shared\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.deps.json
+E:\hbsis\hbsisApi\LivrariaContext.Shared\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.dll
+E:\hbsis\hbsisApi\LivrariaContext.Shared\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.pdb
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.csproj.CoreCompileInputs.cache
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.AssemblyInfoInputs.cache
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.AssemblyInfo.cs
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.dll
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.pdb
+E:\hbsis\hbsisApi\LivrariaContext.Shared\obj\Debug\netcoreapp2.0\LivrariaContext.Shared.csprojResolveAssemblyReference.cache

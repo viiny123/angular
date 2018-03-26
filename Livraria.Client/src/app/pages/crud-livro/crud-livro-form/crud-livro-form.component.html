@@ -1,0 +1,201 @@
+<div class="container">
+  <mat-card>
+    <h1>
+      <mat-card-title>{{title}}</mat-card-title>
+    </h1>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="save()">
+          <input type="hidden" id="id" formControlName="id" name="id" #id>
+
+        <div class="padding-left-10p padding-right-10p">
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Título</mat-label>
+                  <input matInput id="TituloLivro" required class="validate" type="text" name="TituloLivro" formControlName="TituloLivro" #TituloLivro>
+                  <mat-error *ngIf="!form.controls['TituloLivro'].valid && form.controls['TituloLivro'].touched">
+                    Título é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Nome Autor</mat-label>
+                  <input matInput id="Nome" required class="validate" type="text" name="Nome" formControlName="Nome" #Nome>
+                  <mat-error *ngIf="!form.controls['Nome'].valid && form.controls['Nome'].touched">
+                    Nome Autor é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Sobrenome Autor</mat-label>
+                  <input matInput id="Sobrenome" required class="validate" type="text" name="Sobrenome" formControlName="Sobrenome" #Sobrenome>
+                  <mat-error *ngIf="!form.controls['Sobrenome'].valid && form.controls['Sobrenome'].touched">
+                    Sobrenome Autor é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Editora</mat-label>
+                  <input matInput id="NomeEditora" required class="validate" type="text" name="NomeEditora" formControlName="NomeEditora" #NomeEditora>
+                  <mat-error *ngIf="!form.controls['NomeEditora'].valid && form.controls['NomeEditora'].touched">
+                    Editora é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">CNPJ</mat-label>
+                  <input matInput id="Cnpj" required class="validate" type="text" name="Cnpj" formControlName="Cnpj" #Cnpj>
+                  <mat-error *ngIf="!form.controls['Cnpj'].valid && form.controls['Cnpj'].touched">
+                    CNPJ é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Rua</mat-label>
+                  <input matInput id="Rua" required class="validate" type="text" name="Rua" formControlName="Rua" #Rua>
+                  <mat-error *ngIf="!form.controls['Rua'].valid && form.controls['Rua'].touched">
+                    Rua é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Numero</mat-label>
+                  <input matInput id="Numero" required class="validate" type="text" name="Numero" formControlName="Numero" #Numero>
+                  <mat-error *ngIf="!form.controls['Numero'].valid && form.controls['Numero'].touched">
+                    Numero é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Bairro</mat-label>
+                  <input matInput id="Bairro" required class="validate" type="text" name="Bairro" formControlName="Bairro" #Bairro>
+                  <mat-error *ngIf="!form.controls['Bairro'].valid && form.controls['Bairro'].touched">
+                    Bairro é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Cidade</mat-label>
+                  <input matInput id="Cidade" required class="validate" type="text" name="Cidade" formControlName="Cidade" #Cidade>
+                  <mat-error *ngIf="!form.controls['Cidade'].valid && form.controls['Cidade'].touched">
+                    Cidade é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Estado</mat-label>
+                  <input matInput id="Estado" required class="validate" type="text" name="Estado" formControlName="Estado" #Estado>
+                  <mat-error *ngIf="!form.controls['Estado'].valid && form.controls['Estado'].touched">
+                    Estado é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Cep</mat-label>
+                  <input matInput id="Cep" required class="validate" type="text" name="Cep" formControlName="Cep" #Cep>
+                  <mat-error *ngIf="!form.controls['Cep'].valid && form.controls['Cep'].touched">
+                    Cep é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Formato</mat-label>
+                  <input matInput id="Formato" required class="validate" type="text" name="Formato" formControlName="Formato" #Formato>
+                  <mat-error *ngIf="!form.controls['Formato'].valid && form.controls['Formato'].touched">
+                    Formato é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Peso</mat-label>
+                  <input matInput id="Peso" required class="validate" type="text" name="Peso" formControlName="Peso" #Peso>
+                  <mat-error *ngIf="!form.controls['Peso'].valid && form.controls['Peso'].touched">
+                    Peso é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Paginas</mat-label>
+                  <input matInput id="Paginas" required class="validate" type="text" name="Paginas" formControlName="Paginas" #Paginas>
+                  <mat-error *ngIf="!form.controls['Paginas'].valid && form.controls['Paginas'].touched">
+                    Paginas é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">ISBN</mat-label>
+                  <input matInput id="ISBN" required class="validate" type="text" name="ISBN" formControlName="ISBN" #ISBN>
+                  <mat-error *ngIf="!form.controls['ISBN'].valid && form.controls['ISBN'].touched">
+                    ISBN é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexbox">
+            <div class="flex-size3">
+              <div class="flex-dir-row">
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Ano</mat-label>
+                  <input matInput id="Ano" required class="validate" type="text" name="Ano" formControlName="Ano" #Ano>
+                  <mat-error *ngIf="!form.controls['Ano'].valid && form.controls['Ano'].touched">
+                    Ano é obrigatório
+                  </mat-error>
+                </mat-form-field>
+
+                <mat-form-field class="w-30" [floatLabel]="always">
+                  <mat-label class="title-collage">Estoque</mat-label>
+                  <input matInput id="Estoque" required class="validate" type="text" name="Estoque" formControlName="Estoque" #Estoque>
+                  <mat-error *ngIf="!form.controls['Estoque'].valid && form.controls['Estoque'].touched">
+                    Estoque é obrigatório
+                  </mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexbox">
+              <div class="flex-size7"></div>
+              <div class="flex-size1 padding-right-30p">
+                <button class="float-right" type="button" routerLink="/home" routerLinkActive="active" mat-raised-button>Voltar</button>
+              </div>
+              <div class="flex-size1">
+                <button class="width-90p" [disabled]="!form.valid" type="submit" mat-raised-button color="accent">
+                  Salvar
+                </button>
+              </div>
+            </div>
+          
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

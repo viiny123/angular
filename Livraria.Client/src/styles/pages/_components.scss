@@ -1,0 +1,120 @@
+.page.components {
+
+  @include responsivePadding();
+
+  .preview {
+    background: #F2F2F2;
+
+    button {
+      //margin: 12px;
+    }
+
+    mat-card {
+      margin: 24px 0;
+    }
+
+    mat-card + mat-card {
+      margin: 0 0 24px;
+    }
+
+    mat-card > mat-card-content > * {
+      margin: 10px 5px;
+    }
+  }
+
+  .sticky-menu {
+    position: relative;
+    margin-top: 180px;
+
+    .list {
+
+      .list-item {
+        cursor: pointer;
+        position: relative;
+      }
+    }
+  }
+
+  .group {
+
+    .group-title {
+      font-size: 26px;
+    }
+  }
+
+  .section {
+
+    .section-title {
+      font-size: 22px;
+      margin-bottom: 4px;
+    }
+
+    .section-tag {
+      font-weight: bold;
+    }
+
+    .section-info {
+      font-weight: bold;
+    }
+  }
+
+  .demo-list {
+    margin: 24px;
+    background: white;
+  }
+}
+
+
+
+
+.passo-a-passo{
+  margin-left: 3%
+}
+
+.passo-a-passo .item{
+  padding-bottom: 5px;
+}
+
+.passo-a-passo .ordem{
+  float: left;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%; 
+  border-radius: 50%; 
+  width: 48px;
+  height: 48px;
+  border: 1px solid #303441;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.passo-a-passo .titulo{
+  height: 48px;
+  margin-left: 5%;
+  padding-top: 8px;
+  cursor: pointer;
+  width: 300px;
+}
+
+
+.drawer-shadow {
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.m-5 {
+  margin-right: 5%;
+}
+
+
+.container-drawer {
+  padding: 10px;
+  background-color: white;
+  margin: 5px;
+}
