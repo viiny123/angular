@@ -10,3 +10,15 @@ E:\hbsis\hbsisApi\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext
 E:\hbsis\hbsisApi\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.csproj.CopyComplete
 E:\hbsis\hbsisApi\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.dll
 E:\hbsis\hbsisApi\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.pdb
+E:\hbsis\Livraria\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext.Domain.deps.json
+E:\hbsis\Livraria\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext.Domain.dll
+E:\hbsis\Livraria\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext.Domain.pdb
+E:\hbsis\Livraria\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.dll
+E:\hbsis\Livraria\LivrariaContext.Domain\bin\Debug\netcoreapp2.0\LivrariaContext.Shared.pdb
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.csprojResolveAssemblyReference.cache
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.csproj.CoreCompileInputs.cache
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.AssemblyInfoInputs.cache
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.AssemblyInfo.cs
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.csproj.CopyComplete
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.dll
+E:\hbsis\Livraria\LivrariaContext.Domain\obj\Debug\netcoreapp2.0\LivrariaContext.Domain.pdb

@@ -7795,11 +7795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\hbsis\\hbsisApi\\LivrariaContext.Tests\\LivrariaContext.Tests.csproj",
+      "projectUniqueName": "E:\\hbsis\\Livraria\\LivrariaContext.Tests\\LivrariaContext.Tests.csproj",
       "projectName": "LivrariaContext.Tests",
-      "projectPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Tests\\LivrariaContext.Tests.csproj",
+      "projectPath": "E:\\hbsis\\Livraria\\LivrariaContext.Tests\\LivrariaContext.Tests.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Tests\\obj\\",
+      "outputPath": "E:\\hbsis\\Livraria\\LivrariaContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -7815,16 +7815,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ec2-13-58-255-20.us-east-2.compute.amazonaws.com/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\hbsis\\hbsisApi\\LivrariaContext.Domain\\LivrariaContext.Domain.csproj": {
-              "projectPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Domain\\LivrariaContext.Domain.csproj"
+            "E:\\hbsis\\Livraria\\LivrariaContext.Domain\\LivrariaContext.Domain.csproj": {
+              "projectPath": "E:\\hbsis\\Livraria\\LivrariaContext.Domain\\LivrariaContext.Domain.csproj"
             },
-            "E:\\hbsis\\hbsisApi\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj": {
-              "projectPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj"
+            "E:\\hbsis\\Livraria\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj": {
+              "projectPath": "E:\\hbsis\\Livraria\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj"
             }
           }
         }

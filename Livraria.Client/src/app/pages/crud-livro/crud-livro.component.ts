@@ -71,7 +71,7 @@ export class CrudLivroComponent implements OnInit {
       || r.isbn.toLowerCase().indexOf(val) >= 0
     ));
 
-    return this.livros
+    return this.livros;
   }
 
   renderError(err: any) {

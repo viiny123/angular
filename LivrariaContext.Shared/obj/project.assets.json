@@ -5258,11 +5258,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\hbsis\\hbsisApi\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj",
+      "projectUniqueName": "E:\\hbsis\\Livraria\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj",
       "projectName": "LivrariaContext.Shared",
-      "projectPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj",
+      "projectPath": "E:\\hbsis\\Livraria\\LivrariaContext.Shared\\LivrariaContext.Shared.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "E:\\hbsis\\hbsisApi\\LivrariaContext.Shared\\obj\\",
+      "outputPath": "E:\\hbsis\\Livraria\\LivrariaContext.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -5278,6 +5278,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ec2-13-58-255-20.us-east-2.compute.amazonaws.com/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
