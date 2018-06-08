@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.API", "Livraria.Api\Livraria.API.csproj", "{66104CBC-9764-4AEF-8789-BFD69DCAADC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.Api", "Livraria.Api\Livraria.Api.csproj", "{66104CBC-9764-4AEF-8789-BFD69DCAADC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivrariaContext.Domain", "LivrariaContext.Domain\LivrariaContext.Domain.csproj", "{B52FEBAD-CAAA-4647-87DF-C5578189228E}"
 EndProject
